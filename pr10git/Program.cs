@@ -12,7 +12,12 @@ namespace pr10git
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Практическая работа №10");
+
             Console.WriteLine("Текущая дата: " + DateTime.Now.ToString("dd.MM.yyyy"));
+
+            Console.WriteLine("Ис24А");
+
+            Console.WriteLine("Кокурина Юлия Дмитриевна");
         }
     }
 }
