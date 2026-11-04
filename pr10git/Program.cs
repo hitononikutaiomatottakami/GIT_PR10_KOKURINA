@@ -10,6 +10,9 @@ namespace pr10git
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("Практическая работа №10");
+            Console.WriteLine("Текущая дата: " + DateTime.Now.ToString("dd.MM.yyyy"));
         }
     }
 }
