@@ -17,4 +17,4 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Build application
-      run: msbuild PR10.slnx /p:Configuration=Release
+      run: msbuild pr10git.slnx /p:Configuration=Release
